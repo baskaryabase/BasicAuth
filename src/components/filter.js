@@ -400,6 +400,17 @@ export default class Filter extends Component{
       <hr className="mh2" style={{marginTop: "0.75rem", marginBottom: "0.75rem"}} />
     </div>
   </div>
+  <buttton
+     style={{
+             color:'#fcfffd',
+             backgroundColor:'#35d097',
+
+             }}
+                  className="btn btn-block col-xs-12"
+                  type="submit">
+          Save Your Search
+  </buttton>
+
 </form>
 </div>
 </div>

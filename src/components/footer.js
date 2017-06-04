@@ -3,7 +3,9 @@ import React,{Component} from 'react';
 export default class Footer extends Component {
   render(){
     return(
-    <div style={{fontFamily: 'sans-serif'}}>
+    <div className="container" style={{fontFamily: 'sans-serif',marginBottom:100}}>
+
+  <div>
       <div className="col-md-4 col-xs-12">
         <div className="container" style={{width:"70%"}}>
         <h4>Find Cars From Your Phone</h4>
@@ -41,7 +43,7 @@ export default class Footer extends Component {
                    <h6><a href="/">Below $40,000</a></h6>
                    <h6><a href="/">Below $50,000</a></h6>
                </div>
-
+</div>
     </div>
     );
   }

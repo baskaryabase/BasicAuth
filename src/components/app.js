@@ -13,8 +13,8 @@ export default class App extends Component {
           <NavHead />
           <Filter />
           <CarList />
-          <Footer style={{background:'#e2e2e0'}} />
           <NavFoot />
+          <Footer />
       </div>
     );
   }
