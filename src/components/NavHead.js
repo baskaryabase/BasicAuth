@@ -13,7 +13,7 @@ render() {
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
-        <Nav style={{fontSize:'12px',fontFamily: 'sans-serif'}}>
+        <Nav style={{fontSize:'12px',    fontFamily: 'sans-serif'}}>
           <NavItem eventKey={1} href="#" >Car Shopping</NavItem>
           <NavItem eventKey={2} href="#">Sell your car</NavItem>
           <NavDropdown eventKey={3} title="Learn More" id="basic-nav-dropdown">
@@ -30,8 +30,8 @@ render() {
             <MenuItem eventKey={3.3}>Terms and Service</MenuItem>
           </NavDropdown>
         </Nav>
-        <Nav pullRight >
-          <NavItem style={{fontSize:'12px',fontFamily: 'sans-serif'}} eventKey={1} href="#">Login / SignUp</NavItem>
+        <Nav pullRight>
+          <NavItem eventKey={1} href="#">Login / SignUp</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

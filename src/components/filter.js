@@ -10,7 +10,7 @@ export default class Filter extends Component{
     return(
       <div>
 
-<div>
+<div style={{}}>
 
 <buttton  onClick={()=>{
   const b = document.querySelector("#baskar")
@@ -50,7 +50,8 @@ export default class Filter extends Component{
                  Filter
               </span>
             </div>
-            <div className="col-xs-4" style={{marginTop:8}}><p className="text-blue pull-right pr2 text-strong">Clear</p>
+            <div className="col-xs-4" style={{marginTop:8}}><h5 className="text-blue pull-right pr2 text-strong">
+              <strong>Clear</strong></h5>
           </div>
         </div>
         <div className="row"><div className="col-xs-12">
