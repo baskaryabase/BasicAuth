@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return(
     <div className="container" style={{fontFamily: 'sans-serif',marginBottom:100}}>
 
-  <div>
+  <div style={{marginTop: 200}}>
       <div className="col-md-4 col-xs-12">
         <div className="container" style={{width:"70%"}}>
         <h4>Find Cars From Your Phone</h4>

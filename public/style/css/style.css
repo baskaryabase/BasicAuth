@@ -11,3 +11,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+
+.thumbnail:hover {
+	box-shadow: 5px 5px 5px 5px #e8e8e8;
+	cursor: pointer;
+}
+
+#heart{
+	height:15px;
+	width:18px;
+	color:white;
+	background: black;
+}
+#heart:hover{
+  color: red;
+	background: #fff;
+}

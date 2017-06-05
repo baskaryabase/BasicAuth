@@ -30,7 +30,7 @@ export default class Filter extends Component{
            paddingTop:'0px',backgroundColor:'#35d097',
            height:'13px',
            marginTop:"-35px"}}
-                className="hidden-lg btn btn-lg col-xs-12"
+                className="hidden-md hidden-lg btn btn-lg col-xs-12"
                 type="submit">
         <span  style={{fontSize:'15px'}}>{this.state.active}</span>
       </buttton>
@@ -41,7 +41,7 @@ export default class Filter extends Component{
                   marginLeft: "16px",
                   paddingLeft: '2px'
                   }}
-          id="baskar" className="hidden-lg col-md-12">
+          id="baskar" className="hidden-md hidden-lg col-md-12">
         <div >
         <form className="pv3 pa1 bg-white " >
           <div className="mt3 row">
@@ -224,7 +224,7 @@ export default class Filter extends Component{
         </div>
 
 
-      <div className="visible-lg col-md-3">
+      <div className="visible-md visible-lg col-md-3">
       <div style={{background:"#fff", marginLeft: "16px", paddingLeft: '2px'}}>
       <form className="pv3 pa1 bg-white " >
         <div className="mt3 row">

@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import {Pagination} from 'react-bootstrap'
+import {Pagination} from 'react-bootstrap';
+
 
 export default class CarImage extends Component {
 render(){
@@ -10,11 +11,25 @@ render(){
 <div className="row">
     <div>
       <div className="col-sm-6 col-md-4">
-       <div className="thumbnail img-responsive">
-         <div style={{position:'absolute',top:'2%',right:'2%'}} className="compponents-bookmark">
-           <heart></heart>
-         </div>
-       <img style={{height:"200px"}} src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+       <div className="thumbnail">
+     <div style={{position: 'relative', left: 0, top: 0}}>
+       <img className="img-responsive"
+         style={{width:'100%',height:"100%",position:'relative',borderRadius:'0px 0px 15px 0px'}}
+         src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+         <a style={{position:'absolute',top:'4%',right:'4%'}} className="btn btn-xs">
+           <div id='heart'><span className="glyphicon glyphicon-heart">
+         </span></div>
+         </a>
+         <div>
+         <img style={{position:'absolute',
+                      height:'35px',
+                      width:'35px',
+                      borderRadius:'50%',
+                      bottom:'0%',
+                      right:'0%'}}
+           src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/13669172_1764311867187944_2683542492691180399_n.jpg?oh=a7f3a88d5d1255a1c81d8bfa77937627&oe=59E37DD6" />
+     </div>
+     </div>
        <div className="caption">
        <h3>BENZ Q8</h3>
        <p style={{fontSize:"12px"}}><button  className="btn btn-default btn-xs">2008</button> 1,00,000 kms - karumathampatti</p>
@@ -27,7 +42,24 @@ render(){
 <div>
   <div className="col-sm-6 col-md-4">
    <div className="thumbnail img-responsive">
-   <img style={{height:"200px"}} src="http://www.drivespark.com/images/2017-05/range-rover-evoque-landmark-special-edition-exterior-2.jpg" alt="..." />
+     <div style={{position: 'relative', left: 0, top: 0}}>
+       <img className="img-responsive"
+         style={{width:'100%',height:"100%",position:'relative',borderRadius:'0px 0px 15px 0px'}}
+         src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+         <a style={{position:'absolute',top:'4%',right:'4%'}} className="btn btn-xs">
+           <div id='heart'><span className="glyphicon glyphicon-heart">
+         </span></div>
+         </a>
+         <div>
+         <img style={{position:'absolute',
+                      height:'35px',
+                      width:'35px',
+                      borderRadius:'50%',
+                      bottom:'0%',
+                      right:'0%'}}
+           src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/13669172_1764311867187944_2683542492691180399_n.jpg?oh=a7f3a88d5d1255a1c81d8bfa77937627&oe=59E37DD6" />
+     </div>
+     </div>
    <div className="caption">
    <h3>Land Rover</h3>
    <p style={{fontSize:"12px"}}><button  className="btn btn-default btn-xs">2012</button> 1,00,000 kms - pptpirivu</p>
@@ -40,7 +72,24 @@ render(){
 <div>
   <div className="col-sm-6 col-md-4">
    <div className="thumbnail img-responsive">
-   <img style={{height:"200px"}} src="https://drop.ndtv.com/albums/AUTO/mercedes-amg_gt_c/thumb_640x480.jpg" alt="..." />
+     <div style={{position: 'relative', left: 0, top: 0}}>
+       <img className="img-responsive"
+         style={{width:'100%',height:"100%",position:'relative',borderRadius:'0px 0px 15px 0px'}}
+         src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+         <a style={{position:'absolute',top:'4%',right:'4%'}} className="btn btn-xs">
+           <div id='heart'><span className="glyphicon glyphicon-heart">
+         </span></div>
+         </a>
+         <div>
+         <img style={{position:'absolute',
+                      height:'35px',
+                      width:'35px',
+                      borderRadius:'50%',
+                      bottom:'0%',
+                      right:'0%'}}
+           src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/13669172_1764311867187944_2683542492691180399_n.jpg?oh=a7f3a88d5d1255a1c81d8bfa77937627&oe=59E37DD6" />
+     </div>
+     </div>
    <div className="caption">
    <h3>BMW ah!</h3>
    <p style={{fontSize:"12px"}}><button  className="btn btn-default btn-xs">2014</button>1,00,000 kms - Chennai</p>
@@ -55,7 +104,24 @@ render(){
     <div>
       <div className="col-sm-6 col-md-4">
        <div className="thumbnail img-responsive">
-       <img style={{height:"200px"}} src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+         <div style={{position: 'relative', left: 0, top: 0}}>
+           <img className="img-responsive"
+             style={{width:'100%',height:"100%",position:'relative',borderRadius:'0px 0px 15px 0px'}}
+             src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+             <a style={{position:'absolute',top:'4%',right:'4%'}} className="btn btn-xs">
+               <div id='heart'><span className="glyphicon glyphicon-heart">
+             </span></div>
+             </a>
+             <div>
+             <img style={{position:'absolute',
+                          height:'35px',
+                          width:'35px',
+                          borderRadius:'50%',
+                          bottom:'0%',
+                          right:'0%'}}
+               src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/13669172_1764311867187944_2683542492691180399_n.jpg?oh=a7f3a88d5d1255a1c81d8bfa77937627&oe=59E37DD6" />
+         </div>
+         </div>
        <div className="caption">
        <h3>BENZ Q8</h3>
        <p style={{fontSize:"12px"}}><button  className="btn btn-default btn-xs">2008</button> 1,00,000 kms - karumathampatti</p>
@@ -68,7 +134,24 @@ render(){
 <div>
   <div className="col-sm-6 col-md-4">
    <div className="thumbnail img-responsive">
-   <img style={{height:"200px"}} src="http://www.drivespark.com/images/2017-05/range-rover-evoque-landmark-special-edition-exterior-2.jpg" alt="..." />
+     <div style={{position: 'relative', left: 0, top: 0}}>
+       <img className="img-responsive"
+         style={{width:'100%',height:"100%",position:'relative',borderRadius:'0px 0px 15px 0px'}}
+         src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+         <a style={{position:'absolute',top:'4%',right:'4%'}} className="btn btn-xs">
+           <div id='heart'><span className="glyphicon glyphicon-heart">
+         </span></div>
+         </a>
+         <div>
+         <img style={{position:'absolute',
+                      height:'35px',
+                      width:'35px',
+                      borderRadius:'50%',
+                      bottom:'0%',
+                      right:'0%'}}
+           src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/13669172_1764311867187944_2683542492691180399_n.jpg?oh=a7f3a88d5d1255a1c81d8bfa77937627&oe=59E37DD6" />
+     </div>
+     </div>
    <div className="caption">
    <h3>Land Rover</h3>
    <p style={{fontSize:"12px"}}><button  className="btn btn-default btn-xs">2012</button> 1,00,000 kms - pptpirivu</p>
@@ -81,7 +164,24 @@ render(){
 <div>
   <div className="col-sm-6 col-md-4">
    <div className="thumbnail img-responsive">
-   <img style={{height:"200px"}} src="https://drop.ndtv.com/albums/AUTO/mercedes-amg_gt_c/thumb_640x480.jpg" alt="..." />
+     <div style={{position: 'relative', left: 0, top: 0}}>
+       <img className="img-responsive"
+         style={{width:'100%',height:"100%",position:'relative',borderRadius:'0px 0px 15px 0px'}}
+         src="http://www.drivespark.com/images/2017-04/2017-mercedes-amg-s-63-exterior-14.jpg" alt="" />
+         <a style={{position:'absolute',top:'4%',right:'4%'}} className="btn btn-xs">
+           <div id='heart'><span className="glyphicon glyphicon-heart">
+         </span></div>
+         </a>
+         <div>
+         <img style={{position:'absolute',
+                      height:'35px',
+                      width:'35px',
+                      borderRadius:'50%',
+                      bottom:'0%',
+                      right:'0%'}}
+           src="https://scontent.fmaa1-1.fna.fbcdn.net/v/t1.0-9/13669172_1764311867187944_2683542492691180399_n.jpg?oh=a7f3a88d5d1255a1c81d8bfa77937627&oe=59E37DD6" />
+     </div>
+     </div>
    <div className="caption">
    <h3>BMW ah!</h3>
    <p style={{fontSize:"12px"}}><button className="btn btn-default btn-xs">2014</button>1,00,000 kms - Chennai</p>
@@ -118,6 +218,4 @@ render(){
 
 )
 }
-
-
 }
