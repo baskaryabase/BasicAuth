@@ -2,7 +2,7 @@
  1. Nginx
  2. Apache(optional)
 
-### CREATING a PASSWORD FILE
+### CREATING A PASSWORD FILE
  - `sudo sh -c "echo -n 'sammy:' >> /etc/nginx/.htpasswd"`
  - `encrypting password file`
    1. `sudo sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"`
